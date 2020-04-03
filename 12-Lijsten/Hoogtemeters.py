@@ -7,6 +7,9 @@ def hoogtemeters(lijst):
 
     return res
 
+
+#dalen en stijgen
+
 def dalen_en_stijgen(lijst):
     dalen, stijgen = 0, 0
     for hoogtemeter in lijst:
