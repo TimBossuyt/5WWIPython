@@ -15,6 +15,7 @@ def dagprijs(bestelling):
                 prijs += bestelling[i+1] * vieruurtje
             else:
                 prijs += bestelling[i+1] * soep
+
     return prijs
 
 
@@ -26,3 +27,5 @@ def weekprijs(bestelling):
 
     return prijs
 
+
+print(dagprijs(('soep', 2, 'middagmaal', 2)))
